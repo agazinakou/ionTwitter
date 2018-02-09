@@ -1,4 +1,4 @@
-<img src="cover.png" align="center" width="500"/>
+<img src="cover.jpg" align="center" width="500"/>
 
 Don't re-invent the wheel, Just re-align It
 
