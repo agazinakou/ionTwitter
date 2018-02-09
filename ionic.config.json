@@ -1,0 +1,8 @@
+{
+  "name": "Ionic-Twitter-Feed",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

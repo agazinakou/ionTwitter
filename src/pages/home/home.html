@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar color="twitter">
+    <ion-title text-center>
+      Feed
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-card *ngFor="let tweet of news" (tap)="inapp(tweet)">
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="assets/images/twitter.png">
+      </ion-avatar>
+      <h2>{{ tweet.user.name }}</h2>
+      <p>@{{ tweet.user.screen_name }}
+        <i>{{ filterDate }}</i>
+      </p>
+      <p text-wrap>{{ tweet.text }}</p>
+    </ion-item>
+  </ion-card>
+</ion-content>
