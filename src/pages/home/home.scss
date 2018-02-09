@@ -1,5 +1,6 @@
 page-home {
-    .item-ios p {
+
+    .item p {
       overflow: inherit;
       font-size: 1.4rem;
       line-height: normal;
@@ -8,13 +9,13 @@ page-home {
       margin: 0 0 2px;
     }
 
-    .item-md p {
-      overflow: inherit;
-      font-size: 1.4rem;
-      line-height: normal;
-      text-overflow: inherit;
-      color: #000000;
-      margin: 0 0 2px;
+    b {
+      color:#06a0e9
+    }
+
+    h6 {
+      font-size: 11px !important;
+      font-style: italic;
     }
 
 }

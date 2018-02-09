@@ -35,7 +35,7 @@ export class HomePage {
       let loading = this.loadingCtrl.create({
       });
       loading.present();
-      this.http.get('https://api.davoux.cinetcore.ci/twitter').map(res => res.json())
+      this.http.get('http://localhost:8080/twitter').map(res => res.json())
         .subscribe(
           data => {
             this.news = data;
