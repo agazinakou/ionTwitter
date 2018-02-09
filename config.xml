@@ -2,7 +2,7 @@
 <widget id="io.wazcodes.ionTwitter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>ionTwitter</name>
     <description>Twitter Feed APP</description>
-    <author email="agazinako@gmail.com" href="http://wazcodes.com/">Lamine AZINAKOU - WAZCODES</author>
+    <author email="agazinakou@gmail.com" href="http://wazcodes.com/">Lamine AZINAKOU - WAZCODES</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
