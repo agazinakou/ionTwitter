@@ -7,6 +7,7 @@
 </ion-header>
 
 <ion-content>
+
   <ion-card *ngFor="let tweet of news" (tap)="inapp(tweet)">
     <ion-item>
       <ion-avatar item-start>
@@ -17,4 +18,5 @@
       <p text-wrap>{{ tweet.text }}</p>
     </ion-item>
   </ion-card>
+  
 </ion-content>
