@@ -1,4 +1,4 @@
-<img src="icon.png" align="center" width="100"/>
+<img src="cover.png" align="center" width="500"/>
 
 Don't re-invent the wheel, Just re-align It
 
